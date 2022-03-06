@@ -1,0 +1,375 @@
+.navbar{
+    width: 100%;
+    height: 110px;
+    background: #0B4B36;
+}
+
+.navbarCom{
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+    margin-top: 3%;
+    margin: auto;
+    width: 70%;
+    height: 100px;
+
+    background: #0B4B36;
+}
+
+.logoNB{
+    position: relative;
+    padding-top: 3px;
+    width: 66px;
+    height: 53px;
+
+    background: #FFFFFF;
+}
+
+.logo2NB{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 33px 33px 10px 33px;
+    border-color: #FFFFFF transparent transparent transparent;
+}
+
+.textLogoNB{
+    font-family: Niveau Grotesk;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: normal;
+
+    text-align: center;
+
+    color: #0B4B36
+}
+
+.signOut{
+    width: 83px;
+    height: 28px;
+    margin-top: 25px;
+    margin-left: auto;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 28px;
+
+    color: #FFFFFF;
+}
+
+.newTaskH{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+    margin: auto;
+    margin-top: 60px;
+    width: 70%;
+    height: 50px;
+    background: #ffffff;
+}
+
+.taskDesc{
+    margin: auto;
+    width: 70%;
+    height: 40px;
+    margin-top: 20px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.14);
+    border-radius: 2px;
+}
+
+.textTD{
+    position: static;
+    width: 114px;
+    height: 19px;
+
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #4D4D4D;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 20px;
+}
+
+.labels{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 3px 8px;
+
+    position: static;
+    width: auto;
+    height: 20px;
+    left: 0px;
+    top: 0px;
+
+    /* Layout Colors/Brown Grey */
+
+    background: #939393;
+    border-radius: 4px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 8px;
+}
+
+.textLabel{
+    position: static;
+
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 20px;
+
+    color: #FFFFFF;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+}
+
+.newTaskH2{
+    /* position: absolute; */
+    width: 465px;
+    height: 28px;
+    left: 150px;
+    top: 186px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 28px;
+    /* identical to box height, or 88% */
+
+
+    /* Brand Colors/CB Green */
+
+    color: #0B4B36;
+}
+
+.newTaskB{
+    margin-left: auto;
+    padding: 12px 24px 11px;
+
+    /* position: absolute; */
+    width: 162px;
+    height: 16px;
+
+    background: #0B4B36;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.16);
+    border-radius: 4px;
+}
+
+.newTaskBT{
+    position: static;
+    text-align: center;
+    height: 17px;
+    top: 12px;
+
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+
+    text-transform: uppercase;
+    color: #FFFFFF;
+}   
+
+.delSvg{
+    margin-right: 30px;
+}
+
+.priority{
+    width: 29px;
+    margin-left: auto;
+    margin-right: 30px;
+
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+
+    color: #4D4D4D;
+}
+
+
+.box{
+    /* padding-top: 0px; */
+    margin: auto;
+    margin-top: 10%;
+    width: 350px;
+    height: 300px;
+    background: #FFFFFF;
+    /* Shadow 1 */
+
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+    border-radius: 3px;
+}
+
+.Pcontainer{
+    padding-top: 10px;
+    padding-left: 40px;
+    display: flex;
+    flex-direction: row;
+}
+
+.PValue{
+    text-align: center;
+    width: 45px;
+    height: 14px;
+    left: 20px;
+    /* top: 5px; */
+    top: 20px;
+
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+
+    letter-spacing: -0.005em;
+    /* text-transform: uppercase; */
+
+    /* color: #0B4B36; */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+}
+
+.PValue:Click{
+    background-color: #a7c2b9;
+}
+
+
+
+.selitem{
+    display:block;
+    width:200px;
+    background-color:red;
+    color:yellow;
+    cursor:pointer;
+    margin-bottom:5px;
+   
+}
+
+.addB{
+    display: flex; 
+    flex-direction: row;
+    padding-top: 7px;
+
+    margin-top: 10px;
+    margin-left: 50px;
+
+    width: 55px;
+    height: 25px;
+
+    background: #0B4B36;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.16);
+    border-radius: 4px;
+}
+
+.buttonF{
+    padding-top: 7px;
+    margin: auto;
+    margin-top: 30px;
+    width: 250px;
+    height: 25px;
+    left: 48px;
+    top: 364px;
+
+    background: #0B4B36;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.16);
+    border-radius: 4px;
+}
+
+.text2{
+    text-align: center;
+    left: 24px;
+    top: 12px;
+
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height, or 121% */
+
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+}
+
+.labelsAT{
+    display: flex;
+    flex-direction: row;
+    padding: 2px 8px;
+
+    /* position: static; */
+    width: auto;
+    height: 18px;
+    left: 0px;
+    top: 0px;
+
+    background: #939393;
+    border-radius: 4px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 6px;
+}
+
+.textLabelAT{
+    position: static;
+
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 8px;
+    line-height: 20px;
+
+    color: #FFFFFF;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0; 
+}
+
+.setFlex{
+    display: flex;
+    flex-direction: row;
+}
+
+.edit1{
+    margin-right: 25px;
+}

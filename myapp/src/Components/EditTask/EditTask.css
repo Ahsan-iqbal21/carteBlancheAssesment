@@ -1,0 +1,157 @@
+.box{
+    padding-top: 20px;
+    margin: auto;
+    margin-top: 10%;
+    width: 350px;
+    height: 350px;
+    background: #FFFFFF;
+    /* Shadow 1 */
+
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+    border-radius: 3px;
+}
+
+.Pcontainer{
+    padding-top: 10px;
+    padding-left: 40px;
+    display: flex;
+    flex-direction: row;
+}
+
+.PValue{
+    text-align: center;
+    width: 45px;
+    height: 14px;
+    left: 20px;
+    /* top: 5px; */
+    top: 20px;
+
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+
+    letter-spacing: -0.005em;
+    /* text-transform: uppercase; */
+
+    /* color: #0B4B36; */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+}
+.PValue:hover {
+    /* background-color: #a7c2b9; */
+}
+
+.PValue:Click{
+    background-color: #a7c2b9;
+}
+
+
+
+.selitem{
+    display:block;
+    width:200px;
+    background-color:red;
+    color:yellow;
+    cursor:pointer;
+    margin-bottom:5px;
+   
+}
+
+.addB{
+    display: flex; 
+    flex-direction: row;
+    padding-top: 7px;
+
+    margin-top: 10px;
+    margin-left: 50px;
+
+    width: 55px;
+    height: 25px;
+
+    background: #0B4B36;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.16);
+    border-radius: 4px;
+}
+
+.buttonF{
+    padding-top: 7px;
+    margin: auto;
+    margin-top: 30px;
+    width: 250px;
+    height: 25px;
+    left: 48px;
+    top: 364px;
+
+    background: #0B4B36;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.16);
+    border-radius: 4px;
+}
+
+.text2{
+    text-align: center;
+    left: 24px;
+    top: 12px;
+
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height, or 121% */
+
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+}
+
+.labelsAT{
+    display: flex;
+    flex-direction: row;
+    padding: 2px 8px;
+
+    /* position: static; */
+    width: auto;
+    height: 18px;
+    left: 0px;
+    top: 0px;
+
+    background: #939393;
+    border-radius: 4px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 6px;
+}
+
+.textLabelAT{
+    position: static;
+
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 8px;
+    line-height: 20px;
+
+    color: #FFFFFF;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0; 
+}
+
+.setFlex{
+    display: flex;
+    flex-direction: row;
+}
